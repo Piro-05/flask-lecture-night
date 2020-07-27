@@ -7,9 +7,9 @@ def hello():
     return "Hello World!"
 
 
-# @app.route('/top')
-# def top():
-#     return "ここはトップだよ(^^)/"
+@app.route('/top')
+def top():
+    return "ここはトップだよ(^^)/"
 
 
 if __name__ == '__main__':
